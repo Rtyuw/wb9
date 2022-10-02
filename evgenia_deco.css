@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Evgenia Deco';
+	src: url('../fonts/evgenia_deco.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/evgenia_deco.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/evgenia_deco.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/evgenia_deco.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/evgenia_deco.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/evgenia_deco.svg#evgenia_deco') format('svg'); /* Chrome < 4, Legacy iOS */
+}
