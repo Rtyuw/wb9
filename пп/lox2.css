@@ -1,0 +1,14 @@
+table, td {
+    border: 1px solid black;
+}
+td {
+bolder: 1px solid black;
+width:10px;
+height: 10px;
+}
+.even>td:nth-child(even) {
+    background-color: black;
+}
+.odd > td:nth-child(odd) {
+    background-color: black;
+}
