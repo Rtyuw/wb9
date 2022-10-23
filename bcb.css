@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+nav{
+    width: 20%;
+}
+.personal-info{
+    width: 40%;
+}
+.info{
+    width: 40%;
+}
+li{
+    list-style-type: none;
+}
+img{
+    width: 70px;
+}
+.cd{
+    border: 1px solid black ; 
+
+}
+.io{
+    border: 1px solid black ; 
+
+}
+.re{
+    border: 1px;
+}
+

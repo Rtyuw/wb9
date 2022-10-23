@@ -1,0 +1,22 @@
+P{
+    color:blue ;
+}
+
+.text-p {
+    color:chartreuse;
+}
+
+#text-id {
+    color:crimson;
+}
+
+p b {
+    color: brown;
+}
+
+strong + span {
+color: darkturquoise;
+}
+ p> i {
+     color: dimgrey;
+ }
