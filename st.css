@@ -1,10 +1,45 @@
 .wrapper{
     height: 200px;
-    width: 500px;
     background-color: aqua;
+    
+  
+
 }
 .y{
     height: 50px;
     width: 80px;
     background-color: crimson;
 }
+.button {
+   display:flex;
+   margin: 27% 27% 0 27%;
+   justify-content: space-around;
+}
+.fon{
+    height: 500px;
+    width: 100%;
+}
+.text{
+    font-size:30px ;
+    display: flex;
+    justify-content: center;
+}
+/* .carousel-item{
+    height: 500px;
+    width: 100%; 
+} */
+
+
+/* .carousel-item{
+    display: flex;
+    justify-content: center;
+} */
+
+
+#carouselExampleSlidesOnly {
+    height: 400px;
+}
+
+/* .carousel-item > img {
+    width: 400px !important;
+} */

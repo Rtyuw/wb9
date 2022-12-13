@@ -1,0 +1,22 @@
+.button{
+    display: flex;
+    justify-content: center;
+}
+.caps{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    height: 600px;
+    width: 300px;
+}
+.card > img {
+    height: 250px;
+    width: 300px;
+
+}
+.cardc > img {
+    height: 250px;
+    width: 160px;
+
+}
