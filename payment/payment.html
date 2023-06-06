@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./payment.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../foto/rolex.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../foto/jordan4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../foto/yellow1.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Предыдущий</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Следующий</span>
+    </a>
+</div>
+
+<nav>
+  <button type="button" class="btn btn-info" ><a href="/index.html">Menu</a></button>
+  <button type="button" class="btn btn-primary" > <a href="../shoos/shoos.html">Shoos</a> </button>
+  <button type="button" class="btn btn-secondary"><a href="../caps/caps.html">Caps</a></button>
+  <button type="button" class="btn btn-success"><a href="../clothes/clothes.html">Cloth</a></button>
+  <button type="button" class="btn btn-danger"><a href="../accessories/accessories.html">Accessories</a></button>
+  <button type="button" class="btn btn-warning"><a href="../bascet/bascet.html">Basket</a></button>         
+</nav>
+
+<form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">ФИО</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Телефон</label>
+        <input type="text" class="form-control" id="phone">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Адрес*</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="проспект, улица">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCity">Город*</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputState">Область*</label>
+        <select id="inputState" class="form-control">
+          <option selected>Выбрать...</option>
+          <option>Брестская</option>
+          <option>Витебская</option>
+          <option>Гомельская</option>
+          <option>Гродненская</option>
+          <option>Могилёвская</option>
+          <option>Минская</option>
+          <option>Город Минск</option>
+        </select>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputZip">Индекс*</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Я не робот
+        </label>
+      </div>
+    </div>
+  </form>
+  <button id="button" class="btn btn-primary">Отправить</button>
+
+
+
+
+  <div class="modal">
+    <iv class="mass">
+      <div class="text-mod">
+       <h4 id="user"></h4>
+      </div>
+      <div class="btn-mod">
+        <button id="btn-close" class="btn-modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script src="/payment/payment.js"></script>
+</body>
+</html>

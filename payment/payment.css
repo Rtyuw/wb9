@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(155, 40, 139);
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+form {
+    width: 50%;
+margin:0 auto;
+
+}
+img {
+    width: 250px;
+    height: 500px;
+    border: 1px solid black;
+}
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.195);
+    z-index: 100;
+    display: none;
+}
+
+.mass {
+    width: 45%;
+    height: 20%;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 20% auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
